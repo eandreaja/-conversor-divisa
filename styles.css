@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  background-image: url('https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  max-width: 280px;
+  margin: 25px auto;
+}
+.divisa {
+  display: grid; /* cuadrícula */
+  grid-template-columns: 50% 50%; /* 2 columnas iguales */
+  margin-bottom: 15px;
+  background: rgb(37, 169, 209);
+  color: white;
+}
+.nombre,
+.valor {
+  padding: 5px;
+  font-size: 16px;
+  align-self: center; /* alinear elemento al centro en altura */
+  text-align: center; /* alinear texto al centro en ancho */
+}
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
